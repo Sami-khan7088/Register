@@ -139,6 +139,9 @@ label {
   padding: 8px 16px;
   border-radius: 4px;
 }
+.dropdown{
+  display:none;
+}
 .success{
   box-sizing: border-box;
   background-color: lightgreen;
@@ -188,5 +191,69 @@ label {
   }
   
 }
+@media (max-width:800px) {
+  
+  .form_div{
+        width: 90%;  
+  }
+  .Nav_main{
+    flex-direction:row;
+    text-align: center;
+    margin-left: 0%;
+    justify-content: space-around;
+  }
+  .nav_logo{
+    margin-right:30%;
+  }
+  .nav_items{
+    display: none;
+
+  }
+  .nav_items div{
+    margin-left:2px;
+    font-size:14px ;
+  }
+  .input{
+    padding-right: 0px;
+  }
+  .dropdown{
+    display: inline-block;
+    padding:12px 16px;
+    display: inline;
+    font-size: 30px;
+  }
+  
+  .dropdown:hover{
+    background-color:#01addb ;
+    overflow: hidden;
+    color: white;
+    border-radius: 5px;
+   
+  }
+  .dropdown:hover .nav{
+    display:block;
+
+  }
+  .nav{
+    text-align: left;
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+    top:65px;
+    width:100%;
+    left:0px;
+    overflow: auto;
+    display: none;
+  }
+  .nav div{
+      margin: 15px 15%;
+      padding-left: 15px;
+      padding-bottom: 5px;
+      border-bottom:1px solid rgb(165, 165, 165);
+  }
+
+}
+
+
 
 

@@ -33,14 +33,9 @@ setTimeout(() => {
 }, 100);
 
   }
-  
-   const head=()=>{
-      return <p className="success">Registeration Successful !!</p>
-  }
   return (<>
     <Nav />
     <div className="main" >
-    <div>{head}</div>
       <div className="form_div">
         <div className="sign_div">
           <h3>Register Form</h3>
